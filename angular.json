@@ -31,9 +31,17 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+ "./node_modules/popper.js/dist/umd/popper.min.js",
+ "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+"./node_modules/gsap/dist/gsap.min.js",
+"./node_modules/gsap/dist/ScrollTrigger.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,9 +102,17 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+ "./node_modules/popper.js/dist/umd/popper.min.js",
+ "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+"./node_modules/gsap/dist/gsap.min.js",
+"./node_modules/gsap/dist/ScrollTrigger.min.js"
+            ]
           }
         },
         "lint": {
