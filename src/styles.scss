@@ -255,5 +255,8 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
   }
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%;; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  min-height: 100vh;
+  display: flex;
+  flex-direction: column;}

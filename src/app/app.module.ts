@@ -10,6 +10,7 @@ import { MaterialModule } from './shared/material.module';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, NavbarComponent, FooterComponent],
@@ -18,6 +19,9 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
+    MatSliderModule,
+    MaterialModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
