@@ -11,13 +11,11 @@ import { MaterialModule } from './shared/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatSliderModule } from '@angular/material/slider';
-import { LoginComponent } from './components/login/login.component';
-import { SignupComponent } from './components/signup/signup.component';
 
 
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent, LoginComponent, SignupComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
